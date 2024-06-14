@@ -1,9 +1,16 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "My very first post!"
 date:   2024-06-14 14:54:30 +0300
-categories: jekyll update
+categories: jekyll experiment
 ---
+
+Hi! This is my first post. I use here to experiment new features, so you may see a lot of random things.
+
+Click to go back to the [homepage][homepage]
+
+[homepage]: /
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:
