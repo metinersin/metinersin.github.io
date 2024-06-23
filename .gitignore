@@ -5,3 +5,4 @@ _site
 vendor
 _drafts
 .markdownlint.json
+personal-website.code-workspace
