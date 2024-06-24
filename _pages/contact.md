@@ -4,10 +4,18 @@ title: Contact
 permalink: /contact
 ---
 
-## Contact
+## Get in touch!
 
-Get in touch!
+<br>
 
-<form>
-  <!-- Form stuff -->
-</form>
+**Email:** <{{site.email}}>
+
+<br>
+
+**Address:** Bogazici University, Bebek/Istanbul, Turkey 34342
+
+<br>
+
+**Advisor:** [Assoc. Prof. Ayhan Gunaydin](https://web.bogazici.edu.tr/ayhan.gunaydin/)
+
+<br>
