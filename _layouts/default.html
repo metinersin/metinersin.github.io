@@ -11,12 +11,14 @@
 </head>
 
 <body>
-    <header>
+    <header class="banner">
         <h1>My Personal Website</h1>
         <nav>
             <ul class="nav-links">
                 <li><a href="/" {% if page.title == "Home" %}class="active-page"{% endif %}>Home</a></li>
                 <li><a href="/blog" {% if page.title == "Blog" %}class="active-page"{% endif %}>Blog</a></li>
+                <li><a href="/publications" {% if page.title == "Publications" %}class="active-page"{% endif %}>Publications</a></li>
+                <li><a href="/notes" {% if page.title == "Notes" %}class="active-page"{% endif %}>Notes</a></li>
                 <li><a href="/map" {% if page.title == "Map" %}class="active-page"{% endif %}>Map</a></li>
                 <li><a href="/contact" {% if page.title == "Contact" %}class="active-page"{% endif %}>Contact</a></li>
             </ul>
@@ -48,7 +50,7 @@
     </div>
 
     <footer>
-        Proudly made with Jekyll
+        Made with Jekyll
     </footer>
 </body>
 
