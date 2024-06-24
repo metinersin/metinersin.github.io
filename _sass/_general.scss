@@ -1,5 +1,6 @@
 $font-stack: Arial, sans-serif;
 $font-size: 18px;
+$font-size-small: 14px;
 $text-color: white;
 
 $primary-color: #333;
@@ -9,34 +10,46 @@ $sidebar-width: 17vw;
 
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  border: 0;
+  // padding: 0;
+  // margin: 0;
+  // border: 0;
 }
 
 body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+
   font-family: $font-stack;
   font-size: $font-size;
-  margin: 0;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-header {
+.banner {
   background-color: $primary-color;
   color: $text-color;
-  padding: 2rem;
+  padding-left: 2rem;
   padding-bottom: 1.5rem;
+  padding-top: 3rem;
+
+  h1 {
+    padding: 0;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    margin: 0;
+  }
 
   nav {
-    // border-top: 1px solid $nav-border-color;
+    margin: 0;
     margin-top: 1.3rem;
     padding: 0;
 
     ul {
       list-style-type: none;
       padding: 0;
+      margin: 0;
 
       li {
         display: inline;
@@ -55,6 +68,28 @@ header {
   }
 }
 
+.post-header {
+  background-color: $secondary-color;
+  padding: 1rem;
+  padding-bottom: 0.2rem;
+  margin: 0;
+
+  .post-title {
+    padding: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  .post-date {
+    font-size: $font-size-small;
+  }
+
+  .post-categories {
+    font-size: $font-size-small
+  }
+
+}
+
 .container {
   display: flex;
   flex: 1;
@@ -63,6 +98,7 @@ header {
 aside {
   background-color: $secondary-color;
   padding: 1rem;
+  margin: 0;
   width: $sidebar-width;
 
   ul {
@@ -84,6 +120,19 @@ aside {
   }
 }
 
+// make sidebars invisible
+aside {
+  ul {
+    li {
+      a {
+        color: $secondary-color
+      }
+    }
+  }
+
+  color: $secondary-color
+}
+
 main {
   flex: 1;
   padding-top: 4rem;
@@ -97,5 +146,6 @@ footer {
   color: $text-color;
   text-align: center;
   padding: 1rem;
+  margin: 0;
 }
   
