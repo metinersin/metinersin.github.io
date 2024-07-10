@@ -10,12 +10,11 @@ permalink: /contact
 
 **Email:** <{{site.email}}>
 
+<!-- TODO: form for sending an email -->
+<!-- twitter, linkedin, scholar, github vs. -->
+
 <br>
 
 **Address:** Bogazici University, Bebek/Istanbul, Turkey 34342
-
-<br>
-
-**Advisor:** [Assoc. Prof. Ayhan Gunaydin](https://web.bogazici.edu.tr/ayhan.gunaydin/)
 
 <br>
