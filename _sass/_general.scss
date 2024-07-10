@@ -73,6 +73,7 @@ body {
   padding: 1rem;
   padding-bottom: 0.2rem;
   margin: 0;
+  line-height: normal;
 
   .post-title {
     padding: 0;
@@ -88,6 +89,11 @@ body {
     font-size: $font-size-small
   }
 
+}
+
+article {
+  text-align: justify;
+  line-height: 2;
 }
 
 .container {
