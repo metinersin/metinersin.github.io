@@ -93,7 +93,10 @@ body {
 
 article {
   text-align: justify;
-  line-height: 2;
+}
+
+article.post {
+  line-height: 1.5;
 }
 
 .container {
