@@ -13,7 +13,7 @@
 
 <body>
     <header class="banner">
-        <h1>M. Ersin Arican</h1>
+        <h1>M. Ersin Arıcan</h1>
         <nav>
             <ul class="nav-links">
                 <li><a href="/" {% if page.title == "Home" %}class="active-page"{% endif %}>Home</a></li>
@@ -24,6 +24,7 @@
                 <li><a href="/contact" {% if page.title == "Contact" %}class="active-page"{% endif %}>Contact</a></li>
             </ul>
         </nav>
+        <img src="path_to_your_image.jpg" alt="Metin Ersin Arıcan" class="banner-image">
     </header>
     
     <div class="container">
@@ -37,7 +38,9 @@
           </aside>
     
         <main class="page-content">
-            {{ content }}
+            <article>
+                {{ content }}
+            </article>
         </main>
 
         <aside class="right-sidebar">
