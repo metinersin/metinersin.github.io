@@ -4,62 +4,35 @@ permalink: /
 title: Homepage
 ---
 
-# Hello, Jekyll!!
+### Hi! My name is Metin Ersin Arıcan. 
+I am a second-year master's student at [Boğaziçi University](https://www.bogazici.edu.tr) under the supervision of [Assoc. Prof. Ayhan Günaydın](https://web.bogazici.edu.tr/ayhan.gunaydin). My interests lie in the foundations of mathematics. This includes the usual stuff such as model theory, mathematical logic, set theory, category theory etc. as well as automated theorem proving and formalization of mathematics. Right now, I work on the model theory of fields.
 
-Let's try some math symbols. $$ \frac{3}{2} $$
+#### Education
+* B.S. in Electrical and Electronics Engineering - Boğaziçi University
+* B.S. in Physics - Boğaziçi University
 
-$$\begin{equation}
-    x^2 + 1 = 0 + \cal{A} + \mathbb{B}
-\end{equation}$$
+#### Academic Experience
+* Teaching Assistant - Boğaziçi University
+    * MATH 102 - Multivariable Calculus
+    * MATH 105 - Introduction to Finite Mathematics
+    * MATH 412 - Axiomatic Set Theory
 
-# Inundet vota usus socero primi vulnere cornu
+* Undergraduate Research Assistant - ETH Zurich
+    * Supervisor: [Prof. Ender Konukoglu](https://people.ee.ethz.ch/~kender)
+    * Focused on the spatial inductive bias of convolutional neural networks (CNN), which offers an unsupervised solution to image restoration, often referred to as ’Deep Image Prior’.
 
-## Paulatim atris
+* Undergraduate Research Assistant - Boğaziçi University
+    * Supervisor: [Assoc. Prof. Ahmet Öncü](https://ee.bogazici.edu.tr/ahmet-oncu)
+    * Worked on the design and verification of digital circuits. Developed graphical user interfaces to ease the programming of various digital circuits.
 
-Lorem markdownum **maturior** deo coniuge terram caterva forma florem,
-erravisse. Gravem praepetibus semel iterumque splendidaque pictae; undis crimen
-evehor, *causa quod gravitate* Lebinthos et defecto te fata. Oras vino unda dum
-lumina.
+* Physics Instructor - [TÜBİTAK](https://www.tubitak.gov.tr/en)
+    * Gave lectures and held problem-solving sessions on physics topics like electromagnetism, mechanics, and modern physics to a class of students who were nominees of the physics olympiad team of Turkey.
 
-## Iove nympha
+#### Professional Experience
+* Cryptanalyst Intern - [BİLGEM](https://bilgem.tubitak.gov.tr/en)
+    * Prepared presentations and reports explaining linear and differential cryptanalysis of DESlike block ciphers and implemented their algorithms from scratch in Python.
+    * Prepared presentations and reports explaining Grover's and Shor's algorithms and how can they be used to break RSA.
+    * Prepared presentations and reports explaining lattice-based cryptography and the Fiat-Shamir transform.
 
-Faunigenaeque aquas **summos** omnes quoque, materna confinia. Diu ego idcirco
-et ad **Latonia quam uno** via membra inmane; iners. Partem quoque studiosius,
-non, senior peperisse parenti leves, falsa dicere tollere obitumque subiere.
-Custos prospicit urnam praemia, iterum vultus temperiemque hospitis, illos non
-vulnera capillos ad easdem at.
-
-Habeo et mille ut labores verba nuper harpen et considerat quoque, ab et
-minatur. Mimasque suoque transcribere caput, erat potestas Nilus praeferret
-fertur, est *superum summae*. Tunicasque harenas, develat vacca.
-
-## Ire naris parentis
-
-Et minimo Iolaus radice flectere ferae desertum iusserat nec regia aera tenet
-credite viderat primis saucius libertas. Telamonius senecta sextae protinus est
-in scelerato inops dignoque, de ait nec gelido morti.
-
-Acta orbe ordine Romanam. Quem [erat crescendo](http://ubi.net/laeva-tuba.html)
-silvas nec fecit annos Tirynthius, quia pretiumque gener contremuit rigavit
-procul detur vires. *Quattuor in opes* propior obscura tellus, et [omni et
-et](http://feret.org/ignesque-quaerit) oraque sollicitis habitabile; vultus,
-ripis.
-
-## Plumis templa
-
-Senes premebat facit post videre; tectura Procrusten
-[gaudent](http://ignequae.org/sidere) erat, Calydonis amore forsitan dicebar in.
-Veneror trahi, et tantum vixisti virili aquae cum, quas domus meo incidit alium,
-carmen quas delendaque in. Pinu **tuus mox** ora dolet gaudetque Matri recludam:
-spatium nefandis et. Inmensa quae mersit **diva secum abesse**, artus nunc
-iterum, simul et Minervae ligat!
-
-## Constitit currere
-
-Humanis nemorale nec stabant essem mixtoque feris? Et tanget adiuvet, longi non
-que poteratque retro: tua. *Carentia mori litoream* effudit loquuntur esse:
-piosque meum [Pallas ut lilia](http://www.incaede.com/munus-me) Claninque.
-
-Cinisque puniceum cervicibus nunc, nova solvit, ambagibus me sarisa. Sapiens
-canum.
-
+* R&D Intern - [SESTEK](https://www.sestek.com)
+    * Studied voice activity detection systems using recurrent neural networks and handcrafted features and designed experiments and created benchmarks for the company to compare state-of-the art systems.
