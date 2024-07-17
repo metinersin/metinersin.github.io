@@ -5,7 +5,7 @@ title: Homepage
 ---
 
 ### Hi! My name is Metin Ersin Arıcan. 
-I am a second-year master's student at [Boğaziçi University](https://www.bogazici.edu.tr) under the supervision of [Assoc. Prof. Ayhan Günaydın](https://web.bogazici.edu.tr/ayhan.gunaydin). My interests lie in the foundations of mathematics. This includes the usual stuff such as model theory, mathematical logic, set theory, category theory etc. as well as automated theorem proving and formalization of mathematics. Right now, I work on the model theory of fields.
+I am a second-year master's student at [Boğaziçi University](https://www.bogazici.edu.tr) under the supervision of [Assoc. Prof. Ayhan Günaydın](https://web.bogazici.edu.tr/ayhan.gunaydin). My interests lie in the foundations of mathematics. This includes the usual stuff such as model theory, mathematical logic, set theory, category theory etc. as well as automated theorem proving and formalization of mathematics. Right now, I work on the model theory of fields. Below is a summary of my [CV].
 
 #### Education
 * B.S. in Electrical and Electronics Engineering - Boğaziçi University
