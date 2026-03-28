@@ -7,15 +7,20 @@ description: Education, teaching, research, and industry experience.
 
 ## Education
 
-* M.S. in Mathematics, Boğaziçi University
-* B.S. in Electrical and Electronics Engineering, Boğaziçi University
-* B.S. in Physics, Boğaziçi University
+* M.S. in Mathematics, Boğaziçi University (2026)
+* B.S. in Electrical and Electronics Engineering, Boğaziçi University (2023)
+* B.S. in Physics, Boğaziçi University (2023)
 
 ## Teaching and academic work
 
 * Teaching Assistant, Boğaziçi University
+  * MATH 101 - Singlevariable Calculus
   * MATH 102 - Multivariable Calculus
   * MATH 105 - Introduction to Finite Mathematics
+  * MATH 201 - Matrix Theory
+  * MATH 222 - Group Theory
+  * MATH 323 - Rings, Fields, and Galois Theory
+  * MATH 411 - Mathematical Logic
   * MATH 412 - Axiomatic Set Theory
 * Master's student in mathematics under the supervision of [Assoc. Prof. Ayhan Günaydın](https://web.bogazici.edu.tr/ayhan.gunaydin)
 
