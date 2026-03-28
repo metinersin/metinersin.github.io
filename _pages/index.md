@@ -1,38 +1,32 @@
 ---
 layout: default
 permalink: /
-title: Homepage
+title: Home
+description: Master's student in mathematics at Boğaziçi University working in logic, model theory, and formalization.
+hero_kicker: Logic, model theory, and formalization
+hero_summary: I am a second-year master's student in mathematics at Boğaziçi University, working on the model theory of fields under the supervision of Assoc. Prof. Ayhan Günaydın.
 ---
 
-### Hi! My name is Metin Ersin Arıcan. 
-I am a second-year master's student at [Boğaziçi University](https://www.bogazici.edu.tr) under the supervision of [Assoc. Prof. Ayhan Günaydın](https://web.bogazici.edu.tr/ayhan.gunaydin). My interests lie in the foundations of mathematics. This includes the usual stuff such as model theory, mathematical logic, set theory, category theory etc. as well as automated theorem proving and formalization of mathematics. Right now, I work on the model theory of fields. Below is a summary of my [CV].
+I am interested in the foundations of mathematics, especially model theory, mathematical logic, set theory, category theory, and the formalization of mathematics. This site is where I collect short writing, notes in progress, and updates related to that work.
 
-#### Education
-* B.S. in Electrical and Electronics Engineering - Boğaziçi University
-* B.S. in Physics - Boğaziçi University
+For a fuller academic summary, see my [CV](/cv/). For shorter expository pieces and textbook solutions, visit the [blog](/blog).
 
-#### Academic Experience
-* Teaching Assistant - Boğaziçi University
-    * MATH 102 - Multivariable Calculus
-    * MATH 105 - Introduction to Finite Mathematics
-    * MATH 412 - Axiomatic Set Theory
+## Research interests
 
-* Undergraduate Research Assistant - ETH Zurich
-    * Supervisor: [Prof. Ender Konukoglu](https://people.ee.ethz.ch/~kender)
-    * Focused on the spatial inductive bias of convolutional neural networks (CNN), which offers an unsupervised solution to image restoration, often referred to as ’Deep Image Prior’.
+* Model theory of fields
+* Mathematical logic and set theory
+* Category theory
+* Automated theorem proving and formalization of mathematics
 
-* Undergraduate Research Assistant - Boğaziçi University
-    * Supervisor: [Assoc. Prof. Ahmet Öncü](https://ee.bogazici.edu.tr/ahmet-oncu)
-    * Worked on the design and verification of digital circuits. Developed graphical user interfaces to ease the programming of various digital circuits.
+## Current work
 
-* Physics Instructor - [TÜBİTAK](https://www.tubitak.gov.tr/en)
-    * Gave lectures and held problem-solving sessions on physics topics like electromagnetism, mechanics, and modern physics to a class of students who were nominees of the physics olympiad team of Turkey.
+I am currently a teaching assistant at [Boğaziçi University](https://www.bogazici.edu.tr) and work under the supervision of [Assoc. Prof. Ayhan Günaydın](https://web.bogazici.edu.tr/ayhan.gunaydin). My current research focus is the model theory of fields.
 
-#### Professional Experience
-* Cryptanalyst Intern - [BİLGEM](https://bilgem.tubitak.gov.tr/en)
-    * Prepared presentations and reports explaining linear and differential cryptanalysis of DESlike block ciphers and implemented their algorithms from scratch in Python.
-    * Prepared presentations and reports explaining Grover's and Shor's algorithms and how can they be used to break RSA.
-    * Prepared presentations and reports explaining lattice-based cryptography and the Fiat-Shamir transform.
+## On this site
 
-* R&D Intern - [SESTEK](https://www.sestek.com)
-    * Studied voice activity detection systems using recurrent neural networks and handcrafted features and designed experiments and created benchmarks for the company to compare state-of-the art systems.
+* [CV](/cv/) for education, teaching, research, and internship history
+* [Projects](/projects) for software projects, research code, and technical experiments
+* [Blog](/blog) for shorter posts and textbook solutions
+* [Notes](/notes) for longer notes in progress
+* [Publications](/publications) for papers and preprints
+* [Contact](/contact) for the best ways to reach me

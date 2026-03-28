@@ -18,14 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Ersin
+title: Metin Ersin Arıcan
 email: metin.ersin.arican@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: >-
+  Personal website of Metin Ersin Arıcan, a mathematics graduate student
+  working in logic, model theory, and formalization.
+tagline: Mathematics graduate student working in logic, model theory, and formalization.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://metinersin.github.io"
+lang: en
 twitter_username: ersin_ar
 github_username:  metinersin
 
@@ -76,5 +77,4 @@ include: [_pages]
 
 sass:
   style: compressed
-
 

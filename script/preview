@@ -1,0 +1,20 @@
+#!/bin/zsh
+
+set -euo pipefail
+
+repo_root="$(cd "$(dirname "$0")/.." && pwd)"
+homebrew_ruby="/opt/homebrew/opt/ruby/bin"
+
+if [[ ! -x "$homebrew_ruby/ruby" ]]; then
+  echo "Expected Homebrew Ruby at $homebrew_ruby" >&2
+  exit 1
+fi
+
+export PATH="$HOME/.gem/ruby/3.4.0/bin:$homebrew_ruby:$PATH"
+export BUNDLE_PATH="$HOME/.bundle/metinersin-github-io"
+export BUNDLE_BUILD__NOKOGIRI="--use-system-libraries"
+
+cd "$repo_root"
+
+bundle _2.5.12_ install
+exec bundle _2.5.12_ exec jekyll serve --host 127.0.0.1 --port 4000

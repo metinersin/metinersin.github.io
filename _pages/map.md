@@ -1,7 +1,16 @@
 ---
 layout: default
-title: The Map of The Website
+title: Site Map
 permalink: /map
+description: A quick overview of the main sections of the site.
 ---
 
-I don't know what to put here.
+This page is a simple overview of the main sections of the site.
+
+* [Home](/)
+* [CV](/cv/)
+* [Publications](/publications)
+* [Projects](/projects)
+* [Notes](/notes)
+* [Blog](/blog)
+* [Contact](/contact)
