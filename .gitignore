@@ -1,7 +1,9 @@
 _site
+.DS_Store
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+.bundle
 vendor
 _drafts
 .markdownlint.json

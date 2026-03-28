@@ -5,24 +5,47 @@ permalink: /projects
 description: Software projects, research code, and technical experiments.
 ---
 
-This page collects software projects, research code, and technical experiments.
+<p class="projects-intro">
+  This page collects software projects, research code, and technical experiments.
+</p>
 
-## Personal website
+<div class="project-grid">
+  {% for project in site.data.projects %}
+  <article class="project-card">
+    <div class="project-card__header">
+      <p class="project-card__eyebrow">Project {{ forloop.index }}</p>
+      <h2>{{ project.name }}</h2>
+      <p class="project-card__summary">{{ project.summary }}</p>
+    </div>
 
-This website is a Jekyll-based personal homepage for my academic profile, writing, and project archive. It is designed to serve as a central place for my CV, blog posts, notes, and software work.
+    {% if project.stack %}
+    <section class="project-card__section" aria-label="Technology stack">
+      <h3>Stack</h3>
+      <ul class="project-chip-list">
+        {% for item in project.stack %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
 
-* Stack: Jekyll, GitHub Pages, Liquid, Sass
-* Links: [GitHub](https://github.com/metinersin/metinersin.github.io), [Live site](https://metinersin.github.io/)
-* Notes: You are looking at the project itself right now.
+    {% if project.links %}
+    <section class="project-card__section" aria-label="Project links">
+      <h3>Links</h3>
+      <div class="project-link-list">
+        {% for link in project.links %}
+        <a class="project-link" href="{{ link.url }}">{{ link.label }}</a>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
 
-<!--
-Duplicate this block for each project.
-
-## Project name
-
-One or two sentences explaining what the project does and why it exists.
-
-* Stack: Languages, frameworks, and tools
-* Links: [GitHub](https://github.com/...), [Demo](https://...)
-* Notes: Anything important about the project
--->
+    {% if project.notes %}
+    <section class="project-card__section">
+      <h3>Notes</h3>
+      <p>{{ project.notes }}</p>
+    </section>
+    {% endif %}
+  </article>
+  {% endfor %}
+</div>

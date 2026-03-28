@@ -218,6 +218,127 @@ article,
   line-height: 1.75;
 }
 
+.projects-intro {
+  font-size: 1.08rem;
+  line-height: 1.75;
+  color: $color-ink-soft;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  gap: 1.35rem;
+  margin-top: 1.9rem;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  min-height: 100%;
+  padding: 1.55rem;
+  border: 1px solid rgba(217, 201, 178, 0.95);
+  border-radius: 1.35rem;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.88), rgba(255, 248, 241, 0.92)),
+    $color-white;
+  box-shadow: 0 14px 32px rgba(22, 40, 54, 0.08);
+
+  h2,
+  h3 {
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 0.86rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: $color-ink-soft;
+  }
+
+  p:last-child,
+  ul:last-child,
+  div:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.project-card__header {
+  padding-bottom: 1.1rem;
+  border-bottom: 1px solid rgba(217, 201, 178, 0.9);
+}
+
+.project-card__eyebrow {
+  margin: 0 0 0.7rem;
+  font-family: $font-ui;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: $color-accent;
+}
+
+.project-card__summary {
+  margin: 0.8rem 0 0;
+  color: $color-ink-soft;
+}
+
+.project-card__section {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.project-chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    margin: 0;
+    padding: 0.4rem 0.8rem;
+    border-radius: 999px;
+    background: $color-accent-soft;
+    font-family: $font-ui;
+    font-size: 0.84rem;
+    color: $color-ink;
+  }
+}
+
+.project-link-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0.9rem;
+  border: 1px solid rgba(184, 92, 56, 0.22);
+  border-radius: 999px;
+  background: rgba(184, 92, 56, 0.08);
+  font-family: $font-ui;
+  font-size: 0.92rem;
+  text-decoration: none;
+  transition: transform 120ms ease, background-color 120ms ease, border-color 120ms ease;
+
+  &:hover,
+  &:focus-visible {
+    transform: translateY(-1px);
+    background: rgba(184, 92, 56, 0.14);
+    border-color: rgba(184, 92, 56, 0.38);
+  }
+}
+
 p,
 ul,
 ol,
@@ -403,5 +524,9 @@ pre {
   .content-card {
     padding: 1.55rem 1.25rem;
     border-radius: 1.2rem;
+  }
+
+  .project-card {
+    padding: 1.3rem;
   }
 }

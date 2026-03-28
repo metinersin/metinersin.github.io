@@ -1,0 +1,33 @@
+- name: Personal website
+  summary: >
+    A Jekyll-based personal homepage for my academic profile, writing, and
+    project archive. It serves as a central place for my CV, blog posts, notes,
+    and software work.
+  stack:
+    - Jekyll
+    - GitHub Pages
+    - Liquid
+    - Sass
+  links:
+    - label: GitHub
+      url: https://github.com/metinersin/metinersin.github.io
+    - label: Live site
+      url: https://metinersin.github.io/
+  notes: You are looking at the project itself right now.
+
+- name: Formalization sandbox
+  summary: >
+    A demo project entry used to preview the projects grid with multiple cards.
+    It stands in for a small experimental workspace for formalizing textbook
+    proofs, organizing notes, and publishing short technical write-ups.
+  stack:
+    - Lean 4
+    - Lake
+    - Markdown
+    - GitHub Actions
+  links:
+    - label: Notes
+      url: /notes
+    - label: Blog
+      url: /blog
+  notes: Demo entry for layout preview. Replace this card with a real project when ready.
