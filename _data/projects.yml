@@ -15,19 +15,20 @@
       url: https://metinersin.github.io/
   notes: You are looking at the project itself right now.
 
-- name: Formalization sandbox
+- name: Student Distribution Tool
   summary: >
-    A demo project entry used to preview the projects grid with multiple cards.
-    It stands in for a small experimental workspace for formalizing textbook
-    proofs, organizing notes, and publishing short technical write-ups.
+    A browser-based tool for sorting student lists with Turkish alphabetical
+    order, distributing students across configured classrooms, and exporting a
+    single Excel workbook with classroom-specific worksheets.
   stack:
-    - Lean 4
-    - Lake
-    - Markdown
-    - GitHub Actions
+    - JavaScript
+    - HTML
+    - CSS
+    - Jekyll
+    - SheetJS
   links:
-    - label: Notes
-      url: /notes
-    - label: Blog
-      url: /blog
-  notes: Demo entry for layout preview. Replace this card with a real project when ready.
+    - label: Live tool
+      url: /student-distribution-tool/
+    - label: GitHub
+      url: https://github.com/metinersin/metinersin.github.io
+  notes: Runs entirely in the browser and exports classroom lists as Excel worksheets.

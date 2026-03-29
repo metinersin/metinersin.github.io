@@ -1,0 +1,21 @@
+export const CLASSROOMS = [
+  { name: "NH001", defaultCapacity: 32 },
+  { name: "NH101", defaultCapacity: 78 },
+  { name: "NH102", defaultCapacity: 34 },
+  { name: "NH103", defaultCapacity: 27 },
+  { name: "NH104", defaultCapacity: 34 },
+  { name: "NH105", defaultCapacity: 78 },
+  { name: "NH201", defaultCapacity: 34 },
+  { name: "NH202", defaultCapacity: 27 },
+  { name: "NH203", defaultCapacity: 36 },
+  { name: "NH301", defaultCapacity: 56 },
+  { name: "NH302", defaultCapacity: 27 },
+  { name: "NH303", defaultCapacity: 27 },
+  { name: "NH304", defaultCapacity: 34 },
+  { name: "NH305", defaultCapacity: 56 },
+  { name: "NH401", defaultCapacity: 59 },
+  { name: "NH402", defaultCapacity: 34 },
+  { name: "NH403", defaultCapacity: 27 },
+  { name: "NH404", defaultCapacity: 34 },
+  { name: "NH405", defaultCapacity: 64 }
+];

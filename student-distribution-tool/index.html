@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Student Distribution Tool</title>
+  <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+<body>
+  <main class="frame">
+    <p class="eyebrow">Internal Tool</p>
+    <h1>Student Distribution Tool</h1>
+    <p class="summary">
+      An internal tool for sorting student lists, assigning students to fixed
+      classrooms, and exporting ready-to-use Excel worksheets.
+    </p>
+    <div class="divider" aria-hidden="true"></div>
+    <section class="details" aria-label="Project status">
+      <div><span>Status</span>Active tool</div>
+      <div><span>Visibility</span>Unlisted</div>
+      <div><span>Mode</span>Student distribution</div>
+    </section>
+    <section class="tool-panel" aria-label="Classroom assignment tool">
+      <div class="section-heading">
+        <div>
+          <p class="section-heading__eyebrow">Student Distribution</p>
+          <h2>Sort once and export every classroom list</h2>
+        </div>
+        <p class="tool-panel__intro">
+          Upload the student Excel file, set the capacities for the
+          <span id="classroom-count">configured</span> classrooms,
+          and generate a single workbook for distribution. The first worksheet is
+          used, the header row is preserved, and students are ordered with Turkish
+          alphabetical rules by surname, then name, then ID.
+        </p>
+      </div>
+      <form class="tool-form" id="assignment-form">
+        <label class="field" for="student-workbook">
+          <span class="field__label">Student Workbook</span>
+          <input
+            id="student-workbook"
+            name="student-workbook"
+            type="file"
+            accept=".xlsx,.xls,.xlsm,.xlsb,.ods"
+          >
+          <span class="field__hint">
+            The first worksheet is used. Column 1 should be name, column 2 surname,
+            and column 3 student ID. Any additional columns will be preserved.
+          </span>
+          <span class="field__meta" id="student-count-note" aria-live="polite">
+            Detected students: 0
+          </span>
+        </label>
+
+        <section class="tool-form__section" aria-labelledby="capacity-heading">
+          <div class="capacity-header">
+            <div>
+              <p class="section-label" id="capacity-heading">Classroom Capacities</p>
+              <p class="field__hint">
+                Each classroom starts from its configured default capacity. Clear a field to treat its capacity as 0.
+              </p>
+            </div>
+            <div class="capacity-total" aria-live="polite">
+              <span>Total Capacity</span>
+              <strong id="total-capacity">0</strong>
+            </div>
+          </div>
+
+          <div class="capacity-grid" id="capacity-fields"></div>
+        </section>
+
+        <div class="action-row">
+          <button type="submit" id="prepare-workbook">Prepare Workbook</button>
+          <button type="button" class="button-secondary" id="download-workbook" hidden disabled>
+            Download Workbook
+          </button>
+          <p class="status" id="assignment-status" aria-live="polite">
+            Set capacities, upload a workbook, then prepare the classroom file.
+          </p>
+        </div>
+      </form>
+
+      <section class="summary-panel" id="assignment-summary" hidden aria-live="polite">
+        <div class="stat-grid">
+          <article class="stat-card">
+            <span>Total Students</span>
+            <strong id="summary-total-students">0</strong>
+          </article>
+          <article class="stat-card">
+            <span>Total Capacity</span>
+            <strong id="summary-total-capacity">0</strong>
+          </article>
+          <article class="stat-card">
+            <span>Left Out Students</span>
+            <strong id="summary-overflow-students">0</strong>
+          </article>
+        </div>
+
+        <div class="distribution-header">
+          <div>
+            <p class="section-label">Distribution Summary</p>
+            <p class="field__hint">
+              Each classroom receives students in sorted order until its capacity is filled.
+            </p>
+          </div>
+        </div>
+
+        <div class="distribution-grid" id="distribution-list"></div>
+      </section>
+    </section>
+  </main>
+  <script type="module" src="./assets/scripts/main.js"></script>
+</body>
+</html>
