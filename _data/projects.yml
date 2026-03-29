@@ -19,8 +19,7 @@
   summary: >
     A browser-based tool for sorting student lists with Turkish alphabetical
     order, distributing students across configured classrooms, and exporting a 
-    single Excel workbook with classroom-specific worksheets. Entirely written 
-    by ChatGPT Codex.
+    single Excel workbook with classroom-specific worksheets.
   stack:
     - JavaScript
     - HTML
@@ -32,4 +31,5 @@
       url: /student-distribution-tool/
     - label: GitHub
       url: https://github.com/metinersin/metinersin.github.io
-  notes: Runs entirely in the browser and exports classroom lists as Excel worksheets.
+  notes: Runs entirely in the browser and exports classroom lists as Excel worksheets. Entirely written 
+    by ChatGPT Codex.
