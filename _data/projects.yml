@@ -18,8 +18,9 @@
 - name: Student Distribution Tool
   summary: >
     A browser-based tool for sorting student lists with Turkish alphabetical
-    order, distributing students across configured classrooms, and exporting a
-    single Excel workbook with classroom-specific worksheets.
+    order, distributing students across configured classrooms, and exporting a 
+    single Excel workbook with classroom-specific worksheets. Entirely written 
+    by ChatGPT Codex.
   stack:
     - JavaScript
     - HTML
