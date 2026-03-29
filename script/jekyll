@@ -3,36 +3,4 @@
 set -euo pipefail
 
 repo_root="$(cd "$(dirname "$0")/.." && pwd)"
-homebrew_ruby="/opt/homebrew/opt/ruby/bin"
-bundler_version="2.5.12"
-bundle_slug="$(basename "$repo_root" | tr '[:upper:]' '[:lower:]' | tr -cs 'a-z0-9' '-')"
-bundle_slug="${bundle_slug#-}"
-bundle_slug="${bundle_slug%-}"
-
-if [[ ! -x "$homebrew_ruby/ruby" ]]; then
-  echo "Expected Homebrew Ruby at $homebrew_ruby" >&2
-  echo "Install it with: brew install ruby" >&2
-  exit 1
-fi
-
-if [[ -z "$bundle_slug" ]]; then
-  bundle_slug="jekyll-site"
-fi
-
-gem_user_dir="$("$homebrew_ruby/ruby" -e 'require "rubygems"; print Gem.user_dir')"
-
-export PATH="$gem_user_dir/bin:$homebrew_ruby:$PATH"
-export BUNDLE_PATH="${BUNDLE_PATH:-$HOME/.bundle/$bundle_slug}"
-
-cd "$repo_root"
-
-if ! bundle "_${bundler_version}_" -v >/dev/null 2>&1; then
-  echo "Installing Bundler ${bundler_version} into ${gem_user_dir}" >&2
-  gem install --user-install "bundler:${bundler_version}"
-fi
-
-if ! bundle "_${bundler_version}_" check >/dev/null 2>&1; then
-  bundle "_${bundler_version}_" install
-fi
-
-exec bundle "_${bundler_version}_" exec jekyll "$@"
+exec "$repo_root/script/bundle" exec jekyll "$@"

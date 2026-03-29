@@ -1,0 +1,10 @@
+#!/bin/zsh
+
+set -euo pipefail
+
+repo_root="$(cd "$(dirname "$0")/.." && pwd)"
+
+"$repo_root/script/bundle" -v
+"$repo_root/script/bundle" exec ruby -v
+"$repo_root/script/bundle" exec jekyll -v
+"$repo_root/script/build" "$@"
