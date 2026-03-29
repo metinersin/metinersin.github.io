@@ -4,7 +4,7 @@ permalink: /
 title: Home
 description: Master's student in mathematics at Boğaziçi University working in logic, model theory, and formalization.
 hero_kicker: Logic, model theory, and formalization
-hero_summary: I am a second-year master's student in mathematics at Boğaziçi University, working on the model theory of fields under the supervision of Assoc. Prof. Ayhan Günaydın.
+hero_summary: I am a third-year master's student in mathematics at Boğaziçi University, working on the model theory of fields under the supervision of Assoc. Prof. Ayhan Günaydın.
 ---
 
 I am interested in the foundations of mathematics, especially model theory, mathematical logic, set theory, category theory, and the formalization of mathematics. This site is where I collect short writing, notes in progress, and updates related to that work.
