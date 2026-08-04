@@ -4,7 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ page.description | default: site.description | strip_html | strip_newlines }}">
-    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                processEscapes: true
+            }
+        };
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="stylesheet" type="text/css" href="{{ '/assets/styles/main.css' | relative_url }}">
     <title>{{ page.title }} - {{ site.title }}</title>
 </head>
@@ -45,7 +54,7 @@
 
     <footer class="site-footer">
         <div class="site-shell site-footer__inner">
-            <p class="site-footer__note">Mathematics, logic, and formalization from Istanbul.</p>
+            <p class="site-footer__note">Model theory, mathematical logic, and formal mathematics.</p>
             <div class="site-footer__links">
                 <a href="mailto:{{ site.email }}">{{ site.email }}</a>
                 <a href="https://github.com/{{ site.github_username }}">GitHub</a>

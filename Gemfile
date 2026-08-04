@@ -13,7 +13,10 @@ ruby File.read(File.expand_path(".ruby-version", __dir__)).strip
 # gem "minima", "~> 2.5"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
-gem "github-pages", group: :jekyll_plugins
+# Keep the GitHub Pages dependency set for compatible versions without loading
+# its safe-mode build hook; deployment uses the repository's Pages workflow so
+# local plugins can participate in the build.
+gem "github-pages", require: false
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"

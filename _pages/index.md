@@ -2,25 +2,24 @@
 layout: default
 permalink: /
 title: Home
-description: Master's student in mathematics at Boğaziçi University working in logic, model theory, and formalization.
-hero_kicker: Logic, model theory, and formalization
-hero_summary: I am a third-year master's student in mathematics at Boğaziçi University, working on the model theory of fields under the supervision of Assoc. Prof. Ayhan Günaydın.
+description: Incoming mathematics Ph.D. student at the University of Leeds working in model theory, mathematical logic, and formal mathematics.
+hero_kicker: Model theory, logic, and formal mathematics
+hero_summary: I am an incoming Ph.D. student in mathematics at the University of Leeds. My research interests span model theory, mathematical logic, formal mathematics, and automated theorem proving.
 ---
 
-I am interested in the foundations of mathematics, especially model theory, mathematical logic, set theory, category theory, and the formalization of mathematics. This site is where I collect short writing, notes in progress, and updates related to that work.
+Beginning in 2026, I will pursue a Ph.D. in mathematics at the [University of Leeds](https://www.leeds.ac.uk/) under the supervision of [Dr Pantelis Eleftheriou](https://pelefthe.github.io/) and [Dr Vincenzo L. Mantova](https://poisson.phc.dm.unipi.it/~mantova/index.html). I completed my M.Sc. in mathematics at Boğaziçi University with a thesis on *VC-density in pairs of strongly minimal structures*, advised by [Assoc. Prof. Ayhan Günaydın](https://web.bogazici.edu.tr/ayhan.gunaydin/).
 
 For a fuller academic summary, see my [CV](/cv/). For shorter expository pieces and textbook solutions, visit the [blog](/blog).
 
 ## Research interests
 
-* Model theory of fields
-* Mathematical logic and set theory
-* Category theory
-* Automated theorem proving and formalization of mathematics
+* Model theory and mathematical logic
+* Formal mathematics and automated theorem proving
+* Visual and category-theoretic approaches to formal languages
 
-## Current work
+## Recent work
 
-I am currently a teaching assistant at [Boğaziçi University](https://www.bogazici.edu.tr) and work under the supervision of [Assoc. Prof. Ayhan Günaydın](https://web.bogazici.edu.tr/ayhan.gunaydin). My current research focus is the model theory of fields.
+At Boğaziçi University, I collaborated with four undergraduate students and [Assoc. Prof. Ayhan Günaydın](https://web.bogazici.edu.tr/ayhan.gunaydin/) to formalize quantifier-elimination results in Lean. We formalized the back-and-forth method and applied it to dense linear orders without endpoints. I have also served as a graduate teaching assistant for courses ranging from calculus and algebra to mathematical logic and axiomatic set theory.
 
 ## On this site
 

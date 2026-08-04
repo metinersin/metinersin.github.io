@@ -21,9 +21,10 @@
 title: Metin Ersin Arıcan
 email: metin.ersin.arican@gmail.com
 description: >-
-  Personal website of Metin Ersin Arıcan, a mathematics graduate student
-  working in logic, model theory, and formalization.
-tagline: Mathematics graduate student working in logic, model theory, and formalization.
+  Personal website of Metin Ersin Arıcan, an incoming mathematics Ph.D. student
+  at the University of Leeds working in model theory, mathematical logic, and
+  formal mathematics.
+tagline: Model theory, mathematical logic, and formal mathematics.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://metinersin.github.io"
 lang: en
@@ -77,4 +78,3 @@ include: [_pages]
 
 sass:
   style: compressed
-
