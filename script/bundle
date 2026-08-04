@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr/bin/env bash
 
 set -euo pipefail
 
@@ -57,7 +57,7 @@ select_ruby() {
   candidate_version="$("$candidate" -e 'print RUBY_VERSION' 2>/dev/null)" || return 1
 
   if matches_required_ruby "$candidate_version"; then
-    print -r -- "$candidate"
+    printf '%s\n' "$candidate"
     return 0
   fi
 
