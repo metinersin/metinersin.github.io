@@ -13,10 +13,8 @@ listing:
   sort-ui: false
   page-size: 10
   feed: true
+show-last-updated: true
 toc: false
 ---
 
-<p class="page-updated">Last updated August 9, 2026</p>
-
 This page collects selected mathematical notes that are useful beyond my private working files. Short exercise solutions appear below; longer lecture notes or textbook-scale projects may eventually become separate Quarto books.
-

@@ -3,10 +3,9 @@ title: "Research"
 description: >-
   Research interests in model theory, VC density, strongly minimal structures,
   and formalized mathematics.
+show-last-updated: true
 toc: true
 ---
-
-<p class="page-updated">Last updated August 9, 2026</p>
 
 My main interests lie in model theory: the study of mathematical structures through the formal languages used to describe them. I am especially interested in how logical definability interacts with geometry and combinatorics.
 
@@ -38,4 +37,3 @@ This work connects to broader questions about representing mathematical language
 
 - **Formalizing quantifier elimination in Lean.** A collaborative project on the back-and-forth method and dense linear orders without endpoints.
 - **[Student Distribution Tool](student-distribution-tool/).** A browser-based utility for sorting names using the Turkish alphabet, assigning students to classrooms, and exporting an Excel workbook. It runs entirely in the browser.
-

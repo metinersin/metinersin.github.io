@@ -1,8 +1,6 @@
 ---
 title: "Teaching"
-description: >-
-  Teaching experience in mathematics and physics at Boğaziçi University and
-  TÜBİTAK.
+show-last-updated: true
 toc: true
 ---
 

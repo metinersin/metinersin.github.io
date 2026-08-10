@@ -71,4 +71,7 @@ format:
     link-external-newwindow: true
     include-in-header: _includes/mathjax-macros.html
 
+filters:
+  - filters/last-updated.lua
+
 lang: en
