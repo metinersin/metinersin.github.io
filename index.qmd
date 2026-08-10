@@ -1,0 +1,99 @@
+---
+title: ""
+pagetitle: "Metin Ersin Arıcan"
+description: >-
+  Incoming mathematics PhD student at the University of Leeds working in
+  model theory, mathematical logic, and formalized mathematics.
+image: assets/images/metin-ersin-arican-portrait.jpg
+page-layout: full
+toc: false
+---
+
+::: {.home-page}
+::: {.home-hero}
+::: {.home-hero__copy}
+<p class="home-field">Model theory and mathematical logic</p>
+
+<h1 class="home-title">Metin Ersin Arıcan</h1>
+
+<p class="home-role">Incoming PhD student in Mathematics<br><span>University of Leeds · October 2026</span></p>
+
+<p class="home-bio">My research interests are in model theory, particularly geometric stability theory, VC density, and pairs of strongly minimal structures.</p>
+
+<p class="home-bio home-bio--secondary">I am also interested in formalized mathematics, automated theorem proving, and the use of language models in mathematical research. I completed an M.Sc. in Mathematics at Boğaziçi University and undergraduate degrees in Electrical and Electronics Engineering and Physics.</p>
+
+<div class="home-links">
+  <a href="./research.html">Research</a>
+  <a href="./publications.html">Publications</a>
+  <a href="./cv/index.html">CV</a>
+  <a href="mailto:metin.ersin.arican@gmail.com">Email</a>
+  <a href="https://github.com/metinersin">GitHub</a>
+</div>
+:::
+
+<figure class="home-portrait">
+  <img src="assets/images/metin-ersin-arican-portrait.jpg" alt="Metin Ersin Arıcan smiling while holding a white rabbit outdoors." width="1168" height="1971" loading="eager" fetchpriority="high">
+</figure>
+:::
+
+::: {.home-current}
+::: {.home-current__heading}
+<h2>Current research</h2>
+:::
+
+::: {.home-current__body}
+My M.Sc. research concerns VC density in pairs of models of a strongly minimal theory. My doctoral research will continue in model theory under the supervision of [Pantelis Eleftheriou](https://pelefthe.github.io/), with [Vincenzo Mantova](https://poisson.phc.dm.unipi.it/~mantova/index.html) as secondary supervisor.
+
+<dl class="home-details">
+<div>
+<dt>PhD institution</dt>
+<dd>University of Leeds</dd>
+</div>
+<div>
+<dt>Start date</dt>
+<dd>October 2026</dd>
+</div>
+</dl>
+:::
+:::
+
+::: {.home-selected}
+::: {.home-selected__heading}
+<h2>Selected work</h2>
+
+<p>Work in model theory, formalized mathematics, and computer vision.</p>
+:::
+
+:::: {.home-work-list}
+::: {.home-work-item}
+<p class="home-work-item__type">Research</p>
+
+<h3>VC density in pairs</h3>
+
+My M.Sc. thesis studies combinatorial complexity in expansions of strongly minimal structures.
+
+<p class="home-work-item__link"><a href="./research.html">Research overview</a></p>
+:::
+
+::: {.home-work-item}
+<p class="home-work-item__type">Formalization</p>
+
+<h3>Quantifier elimination in Lean</h3>
+
+I worked with a student team to formalize the back-and-forth method and apply it to dense linear orders.
+
+<p class="home-work-item__link"><a href="./publications.html#selected-formalization-projects">Project details</a></p>
+:::
+
+::: {.home-work-item}
+<p class="home-work-item__type">Publication</p>
+
+<h3>ISNAS-DIP</h3>
+
+Our image-specific neural architecture search method appeared at CVPR 2022.
+
+<p class="home-work-item__link"><a href="./publications.html#publications">Publication details</a></p>
+:::
+::::
+:::
+:::

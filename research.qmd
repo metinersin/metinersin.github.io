@@ -1,0 +1,41 @@
+---
+title: "Research"
+description: >-
+  Research interests in model theory, VC density, strongly minimal structures,
+  and formalized mathematics.
+toc: true
+---
+
+<p class="page-updated">Last updated August 9, 2026</p>
+
+My main interests lie in model theory: the study of mathematical structures through the formal languages used to describe them. I am especially interested in how logical definability interacts with geometry and combinatorics.
+
+::: {.research-area}
+## Model theory and VC density
+
+VC density measures how quickly a definable family can distinguish finite sets. It refines VC dimension and gives a way to compare the combinatorial complexity of definable sets across different theories.
+
+I am interested in obtaining VC-density bounds from model-theoretic structure, particularly in settings where independence, dimension, or geometric closure provide a more conceptual description than a direct counting argument.
+:::
+
+::: {.research-area}
+## Pairs of strongly minimal structures
+
+A strongly minimal structure has a tightly controlled notion of dimension and an associated pregeometry. Naming a distinguished substructure produces a *pair*: an expansion in which the original geometry remains visible while new definable sets appear.
+
+My M.Sc. thesis, *VC-density in pairs of strongly minimal structures*, studies how this expansion changes combinatorial complexity. My doctoral work at the University of Leeds will continue in model theory under the supervision of [Pantelis Eleftheriou](https://pelefthe.github.io/).
+:::
+
+::: {.research-area}
+## Formalized mathematics and theorem proving
+
+I am interested in the relationship between ordinary mathematical practice and machine-checkable proof. At Boğaziçi University, I collaborated with four undergraduate students and [Ayhan Günaydın](https://web.bogazici.edu.tr/ayhan.gunaydin/) to formalize a back-and-forth criterion for quantifier elimination in Lean and apply it to dense linear orders without endpoints.
+
+This work connects to broader questions about representing mathematical language, building reusable formal libraries, and using language models to support autoformalization and proof search.
+:::
+
+## Selected projects
+
+- **Formalizing quantifier elimination in Lean.** A collaborative project on the back-and-forth method and dense linear orders without endpoints.
+- **[Student Distribution Tool](student-distribution-tool/).** A browser-based utility for sorting names using the Turkish alphabet, assigning students to classrooms, and exporting an Excel workbook. It runs entirely in the browser.
+

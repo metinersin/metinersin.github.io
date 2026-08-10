@@ -1,0 +1,35 @@
+---
+title: "Teaching"
+description: >-
+  Teaching experience in mathematics and physics at Boğaziçi University and
+  TÜBİTAK.
+toc: true
+---
+
+::: {.teaching-item}
+## Graduate Teaching Assistant
+
+<p class="item-meta">Boğaziçi University · 2023–present</p>
+
+I have served as a teaching assistant for courses across logic, algebra, linear algebra, and calculus:
+
+- MATH 412 — Introduction to Axiomatic Set Theory
+- MATH 411 — Introduction to Mathematical Logic
+- MATH 323 — Rings, Fields and Galois Theory
+- MATH 222 — Group Theory
+- MATH 201 — Linear Algebra
+- MATH 105 — Introduction to Finite Mathematics
+- MATH 102 — Calculus II
+- MATH 101 — Calculus I
+:::
+
+::: {.teaching-item}
+## Physics Instructor
+
+<p class="item-meta">TÜBİTAK · 2019</p>
+
+I delivered lectures and problem-solving sessions in electromagnetism, mechanics, and modern physics to nominees for Turkey's national physics olympiad team.
+:::
+
+Course materials are shared only when I own them or have permission to distribute them. I do not publish exams, student records, or restricted university materials.
+

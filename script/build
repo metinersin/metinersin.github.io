@@ -3,5 +3,12 @@
 set -euo pipefail
 
 repo_root="$(cd "$(dirname "$0")/.." && pwd)"
+quarto_bin="${QUARTO_BIN:-quarto}"
 
-exec "$repo_root/script/jekyll" build "$@"
+if ! command -v "$quarto_bin" >/dev/null 2>&1; then
+    echo "Quarto is required. Install it from https://quarto.org/docs/get-started/" >&2
+    exit 127
+fi
+
+cd "$repo_root"
+exec "$quarto_bin" render "$@"

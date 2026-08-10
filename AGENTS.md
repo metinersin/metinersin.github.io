@@ -1,12 +1,13 @@
 # Agent Notes
 
-The authoritative local build check for this repo is `make build` or `./script/build`.
+The authoritative local build check for this repository is `make build` or `./script/build`.
 
-Do not treat bare `bundle exec jekyll ...` failures as project build failures unless you have first reproduced the issue with the wrapper scripts. The repo is pinned to Ruby `3.4` in `.ruby-version`, and the wrapper scripts select a compatible Ruby plus the Bundler version from `Gemfile.lock`.
+The site uses Quarto and requires Quarto 1.10 or newer. Do not treat a bare Pandoc conversion as a project build: Quarto supplies the website navigation, listings, search index, feeds, and resource copying.
 
 Use these commands:
 
-- `make build` or `./script/build` for a production build
+- `make build` or `./script/build` for a production render
 - `make preview` or `./script/preview` for local preview
-- `make doctor` or `./script/doctor` for a full toolchain and build check
-- `./script/bundle ...` for Bundler commands in this repo
+- `make doctor` or `./script/doctor` for a Quarto check and production render
+
+The generated `_site/` and `.quarto/` directories are disposable build output. The standalone `student-distribution-tool/` directory must remain available at `/student-distribution-tool/` after every build.

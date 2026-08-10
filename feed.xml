@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Notes · Metin Ersin Arıcan</title>
+    <link>https://metinersin.github.io/notes.html</link>
+    <description>Selected public notes and expository mathematics writing.</description>
+    <language>en</language>
+    <lastBuildDate>Sun, 09 Aug 2026 00:00:00 +0300</lastBuildDate>
+    <item>
+      <title>David Marker, Model Theory: An Introduction, Exercise 2.5.12</title>
+      <link>https://metinersin.github.io/blog/mathematics/model-theory/textbook-solutions/david-marker-model-theory-an-introduction-exercise-2-5-12/</link>
+      <guid isPermaLink="true">https://metinersin.github.io/blog/mathematics/model-theory/textbook-solutions/david-marker-model-theory-an-introduction-exercise-2-5-12/</guid>
+      <pubDate>Tue, 25 Jun 2024 12:47:00 +0300</pubDate>
+      <description>A preservation criterion for formulas equivalent to universal formulas modulo a theory.</description>
+    </item>
+    <item>
+      <title>David Marker, Model Theory: An Introduction, Exercise 2.5.10</title>
+      <link>https://metinersin.github.io/blog/mathematics/model-theory/textbook-solutions/david-marker-model-theory-an-introduction-exercise-2-5-10/</link>
+      <guid isPermaLink="true">https://metinersin.github.io/blog/mathematics/model-theory/textbook-solutions/david-marker-model-theory-an-introduction-exercise-2-5-10/</guid>
+      <pubDate>Mon, 24 Jun 2024 18:50:00 +0300</pubDate>
+      <description>A compactness argument relating universal consequences of a theory to extensions of structures.</description>
+    </item>
+    <item>
+      <title>David Marker, Model Theory: An Introduction, Exercise 2.5.2</title>
+      <link>https://metinersin.github.io/blog/mathematics/model-theory/textbook-solutions/david-marker-model-theory-an-introduction-exercise-2-5-2/</link>
+      <guid isPermaLink="true">https://metinersin.github.io/blog/mathematics/model-theory/textbook-solutions/david-marker-model-theory-an-introduction-exercise-2-5-2/</guid>
+      <pubDate>Mon, 24 Jun 2024 18:00:00 +0300</pubDate>
+      <description>A compactness proof that a theory with arbitrarily large finite models has an infinite model.</description>
+    </item>
+  </channel>
+</rss>
+

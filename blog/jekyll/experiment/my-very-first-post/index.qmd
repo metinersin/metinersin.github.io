@@ -1,0 +1,32 @@
+---
+title: "My very first post!"
+author: "Metin Ersin Arıcan"
+date: 2024-06-14
+description: "An archived experiment from the first Jekyll version of this website."
+categories: [archive, Jekyll, experiment]
+toc: false
+search: false
+---
+
+::: {.archived-note}
+This post documented the first Jekyll version of the site. The website now uses Quarto, so the setup details below no longer apply; the page is retained only to preserve its original URL.
+:::
+
+Hi! This is my first post. I use here to experiment with new features, so you may see a lot of random things.
+
+Click to go back to the [homepage](../../../../index.qmd).
+
+Jekyll requires blog post files to be named according to the following format:
+
+`YEAR-MONTH-DAY-title.MARKUP`
+
+Jekyll also offers support for code snippets:
+
+```ruby
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+```
+

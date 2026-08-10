@@ -1,0 +1,11 @@
+---
+title: "Page not found"
+description: "The requested page could not be found."
+toc: false
+search: false
+---
+
+The page you requested does not exist or may have moved.
+
+[Return to the homepage](index.qmd) or browse the [research](research.qmd), [publications](publications.qmd), and [notes](notes.qmd) pages.
+

@@ -1,0 +1,17 @@
+---
+title: "David Marker, Model Theory: An Introduction, Exercise 2.5.10"
+author: "Metin Ersin Arıcan"
+date: 2024-06-24
+description: "A compactness argument relating universal consequences of a theory to extensions of structures."
+categories: [mathematics, model theory, textbook solutions]
+toc: false
+---
+
+**Exercise 2.5.10.** Let $T$ be an $\mathcal{L}$-theory and $T_\forall$ be the set of all universal sentences $\phi$ such that $T \vDash \phi$. Show that $\mathcal{A} \vDash T_\forall$ if and only if there is $\mathcal{M} \vDash T$ with $\mathcal{A} \subseteq \mathcal{M}$.
+
+**Proof.** $(\Rightarrow)$ Consider the theory $T' := T \cup \diag \mathcal{A}$. Any model of $T'$ is an extension of $\mathcal{A}$ which is also a model of $T$.
+
+For a contradiction, assume that $T'$ is unsatisfiable. By compactness, there exists a quantifier-free $\mathcal{L}$-formula $\phi(\vec{a})$ with $\vec{a} \in A$ such that $T \cup \{\phi(\vec{a})\} \vDash \bot$, implying $T \vDash \forall \vec{x} \, \neg \phi(\vec{x})$. Therefore, $\forall \vec{x} \, \neg \phi(\vec{x}) \in T_\forall$, and hence $\mathcal{A} \vDash \forall \vec{x} \, \neg \phi(\vec{x})$. In particular, $\mathcal{A} \vDash \neg \phi(\vec{a})$, which is a contradiction.
+
+$(\Leftarrow)$ Suppose that $\mathcal{A} \subseteq \mathcal{M}$ for some $\mathcal{M} \vDash T$. Every sentence in $T_\forall$ is true in $\mathcal{M}$, and universal sentences are preserved under substructures. Thus $\mathcal{A} \vDash T_\forall$. $\square$
+

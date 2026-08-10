@@ -1,11 +1,12 @@
-_site
+/_site/
+/_site_test/
+/.quarto/
 .DS_Store
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
-.bundle
-vendor
-_drafts
 .markdownlint.json
 personal-website.code-workspace
 demo.txt
+
+**/*.quarto_ipynb

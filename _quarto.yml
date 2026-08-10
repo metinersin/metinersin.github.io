@@ -1,0 +1,74 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "cv/**/*.qmd"
+    - "blog/**/*.qmd"
+  resources:
+    - "assets/images/**"
+    - "student-distribution-tool/**"
+    - "output/pdf/**"
+    - "blog.html"
+    - "contact.html"
+    - "projects.html"
+    - "map.html"
+    - "feed.xml"
+
+website:
+  title: "Metin Ersin Arıcan"
+  description: >-
+    Personal academic website of Metin Ersin Arıcan, an incoming mathematics
+    PhD student working in model theory, mathematical logic, and formalized
+    mathematics.
+  site-url: "https://metinersin.github.io"
+  search:
+    location: navbar
+    type: overlay
+  open-graph: true
+  navbar:
+    pinned: true
+    background: "#fffefa"
+    foreground: "#262321"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: teaching.qmd
+        text: Teaching
+      - href: notes.qmd
+        text: Notes
+      - href: cv/index.qmd
+        text: CV
+    right:
+      - icon: github
+        href: "https://github.com/metinersin"
+        aria-label: GitHub
+      - icon: envelope
+        href: "mailto:metin.ersin.arican@gmail.com"
+        aria-label: Email
+  page-footer:
+    left: "© 2026 Metin Ersin Arıcan"
+    right:
+      - text: Email
+        href: "mailto:metin.ersin.arican@gmail.com"
+      - text: GitHub
+        href: "https://github.com/metinersin"
+      - text: RSS
+        href: notes.xml
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-title: On this page
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    include-in-header: _includes/mathjax-macros.html
+
+lang: en

@@ -1,0 +1,39 @@
+---
+title: "David Marker, Model Theory: An Introduction, Exercise 2.5.15"
+author: "Metin Ersin Arıcan"
+date: 2024-06-25
+description: "An archived draft concerning universal-existential axiomatizations."
+categories: [archive, mathematics, model theory, textbook solutions]
+toc: false
+search: false
+---
+
+::: {.archived-note}
+This is an archived draft retained at its original URL. It is not included in the curated Notes list.
+:::
+
+**Exercise 2.5.15.** We say that $T$ has a $\forall\exists$-axiomatization if it can be axiomatized by sentences of the form $\forall v_1 \cdots \forall v_n \exists w_1 \cdots \exists w_m\,\phi(v,w)$, where $\phi$ is quantifier-free.
+
+**Draft proof.** $(1 \Rightarrow 2)$ Let $\psi(v)$ be a universal formula such that $T \vDash \forall v\,(\phi(v) \leftrightarrow \psi(v))$. Let $\mathcal{M}$ and $\mathcal{N}$ be models of $T$ with $\mathcal{M} \subseteq \mathcal{N}$, $a \in M$, and $\mathcal{N} \vDash \phi(a)$. We have
+
+$$
+\begin{aligned}
+\mathcal{N} &\vDash \phi(a), \\
+\mathcal{N} &\vDash \psi(a), \\
+\mathcal{M} &\vDash \psi(a), \\
+\mathcal{M} &\vDash \phi(a).
+\end{aligned}
+$$
+
+$(2 \Rightarrow 1)$ Consider the following collection:
+
+$$
+\Gamma := \{\psi(v) : \psi(v) \text{ is universal and } T \cup \{\phi(v)\} \vDash \psi(v)\}.
+$$
+
+By compactness and because $\Gamma$ is closed under conjunctions, $T \cup \Gamma \vDash \phi(v)$ implies that $T \cup \{\psi(v)\} \vDash \phi(v)$, and hence $T \vDash \forall v\,(\phi(v) \leftrightarrow \psi(v))$ for some $\psi(v) \in \Gamma$.
+
+To that end, let $\mathcal{M} \vDash T \cup \Gamma$. We will show that $\mathcal{M} \vDash \phi(v)$. Consider the theory $T' := T \cup \diag \mathcal{M} \cup \{\phi(v)\}$. For a contradiction, assume $T' \vDash \bot$. By compactness, there exist $a \in M$ and $\chi(a,v) \in \diag \mathcal{M}$ such that $T \cup \{\phi(v), \chi(a,v)\} \vDash \bot$. This means $T \cup \{\phi(v)\} \vDash \forall x \, \neg \chi(x,v)$, showing $\forall x \, \neg \chi(x,v) \in \Gamma$. Thus $\mathcal{M} \vDash \forall x \, \neg \chi(x,v)$ but $\mathcal{M} \vDash \chi(a,v)$, a contradiction.
+
+Therefore $T'$ is satisfiable. Let $\mathcal{N} \vDash T'$. Then, by (2), $\mathcal{M} \vDash \phi(v)$. $\square$
+
