@@ -21,7 +21,7 @@ The generated `_site/` directory is intentionally ignored. GitHub Actions instal
 ## Site structure
 
 - `_quarto.yml` contains navigation, metadata, rendering, and resource settings.
-- `index.qmd`, `research.qmd`, `publications.qmd`, `teaching.qmd`, and `notes.qmd` are the primary pages.
+- `index.qmd`, `research.qmd`, `teaching.qmd`, and `notes.qmd` are the primary pages.
 - `cv/index.qmd` is the accessible HTML CV; `output/pdf/Metin_Ersin_Arican_CV.pdf` is its downloadable counterpart.
 - `blog/` contains migrated mathematical notes. Their nested paths preserve the URLs from the former Jekyll site.
 - `student-distribution-tool/` is a standalone browser application copied unchanged into the rendered site.

@@ -12,6 +12,7 @@ project:
     - "blog.html"
     - "contact.html"
     - "projects.html"
+    - "publications.html"
     - "map.html"
     - "feed.xml"
 
@@ -35,8 +36,6 @@ website:
         text: Home
       - href: research.qmd
         text: Research
-      - href: publications.qmd
-        text: Publications
       - href: teaching.qmd
         text: Teaching
       - href: notes.qmd

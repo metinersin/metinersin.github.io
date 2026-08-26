@@ -359,22 +359,16 @@ main > #title-block-header:empty {
 .home-work-item__link a:focus {
   color: var(--site-accent);
 }
-.research-area,
-.writing-item,
 .teaching-item {
   border: 1px solid var(--site-line);
   border-radius: 1rem;
   background: var(--site-paper);
 }
 
-.research-area h2,
-.writing-item h3,
 .teaching-item h2 {
   margin-top: 0;
 }
 
-.research-area p:last-child,
-.writing-item p:last-child,
 .teaching-item p:last-child {
   margin-bottom: 0;
 }
@@ -399,20 +393,13 @@ main > #title-block-header:empty {
   margin-bottom: 2rem;
 }
 
-.research-area,
-.writing-item,
 .teaching-item {
   margin: 1.35rem 0;
   padding: clamp(1.25rem, 3vw, 2rem);
 }
 
-.research-area h2,
 .teaching-item h2 {
   font-size: 1.55rem;
-}
-
-.writing-item h3 {
-  font-size: 1.28rem;
 }
 
 .item-links {
@@ -635,8 +622,6 @@ div.sourceCode {
   }
 
   body,
-  .research-area,
-  .writing-item,
   .teaching-item {
     background: #fff;
   }

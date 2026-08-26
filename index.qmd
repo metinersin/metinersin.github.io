@@ -24,7 +24,6 @@ toc: false
 
 <div class="home-links">
   <a href="./research.html">Research</a>
-  <a href="./publications.html">Publications</a>
   <a href="./cv/index.html">CV</a>
   <a href="mailto:metin.ersin.arican@gmail.com">Email</a>
   <a href="https://github.com/metinersin">GitHub</a>
@@ -60,8 +59,6 @@ My M.Sc. research concerns VC density in pairs of models of a strongly minimal t
 ::: {.home-selected}
 ::: {.home-selected__heading}
 <h2>Selected work</h2>
-
-<p>Work in model theory, formalized mathematics, and computer vision.</p>
 :::
 
 :::: {.home-work-list}
@@ -82,7 +79,7 @@ My M.Sc. thesis studies combinatorial complexity in expansions of strongly minim
 
 I worked with a student team to formalize the back-and-forth method and apply it to dense linear orders.
 
-<p class="home-work-item__link"><a href="./publications.html#selected-formalization-projects">Project details</a></p>
+<p class="home-work-item__link"><a href="./research.html#selected-projects">Project details</a></p>
 :::
 
 ::: {.home-work-item}
@@ -92,7 +89,7 @@ I worked with a student team to formalize the back-and-forth method and apply it
 
 Our image-specific neural architecture search method appeared at CVPR 2022.
 
-<p class="home-work-item__link"><a href="./publications.html#publications">Publication details</a></p>
+<p class="home-work-item__link"><a href="./research.html#publications">Publication details</a></p>
 :::
 ::::
 :::

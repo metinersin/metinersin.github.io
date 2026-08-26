@@ -7,5 +7,4 @@ search: false
 
 The page you requested does not exist or may have moved.
 
-[Return to the homepage](index.qmd) or browse the [research](research.qmd), [publications](publications.qmd), and [notes](notes.qmd) pages.
-
+[Return to the homepage](index.qmd) or browse the [research](research.qmd) and [notes](notes.qmd) pages.
